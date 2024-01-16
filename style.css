@@ -328,6 +328,7 @@ display: none;
       flex-direction: column;
       justify-content: center!important;
       align-items: center;
+      width: 100%;
      }
     .about__img img{
       width: 90%;
@@ -337,47 +338,79 @@ display: none;
 /*==================== PORTFOLIO ====================*/
 
 
-/*==================== Featured ====================*/
+/*==================== Services ====================*/
 
-/*======== MEDIA QUERIES ==========*/
-@media screen and (max-width: 992px) {
-  .featured__content{
-    gap: 2rem!important;
-  }
-  .featured__content-text > .f__title{
-    font-size: var(--h1-font-size);
-
-  }
-  .featured__content-text > .f__subtitle{
-   font-size: var(--normal-font-size);
-
-  }
+.services__header{
+  width: 60%;
+  margin: 0 auto;
 }
+.services__title{
+  text-align: center;
+}
+.services__desc{
+text-align: center;
+}
+.services__content{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.services__content-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.service{
+  width: 80%;
+  height: 280px;
+  padding: 2rem;
+}
+.service__one{
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+.service__two{
+  border-radius: 1rem;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+.service__three{
+  width: 60%;
+  border-radius: 1rem;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+/*======== MEDIA QUERIES ==========*/
+
 @media screen and (max-width: 768px) {
   /* Make the home page Responsible */
-  .featured__content{
+  .services__header{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .services__content{
+    margin-top: 1rem;
     display: flex;
-    flex-direction: column-reverse;
+    gap: 1rem;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem!important;
   }
-  .featured__content-text{
+  .services__content-two{
     display: flex;
     flex-direction: column;
-    justify-content: center!important;
-    align-items: center!important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
   }
-  .featured__content-text > .f__title{
-    text-align: center;
-
-  }
-  .featured__content-text > .f__subtitle{
-    text-align: center;
-
+  .service{
+    width: 90%;
   }
 }
-
 /*==================== Testimonial ====================*/
 .testimonial__content{
   width: 60%;
