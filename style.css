@@ -1208,7 +1208,8 @@ select {
 /*==================== FOOTER ====================*/
 
 .footer {
-  padding: 2rem;
+  width: 100%;
+  padding: 4rem;
   background: rgba(19, 19, 24, 0.05);
 }
 .footer__desc {
@@ -1217,9 +1218,21 @@ select {
   padding: 1rem;
   text-align: center;
 }
+.fa-icon{
+ font-size: 22px;
+ color: var(--first-color);
+}
+.border-top{
+  margin-top: 2rem;
+   border-top: 1px solid #d4d4d4;
+}
+@media screen and (max-width: 768px) {
+  /* Make the home page Responsible */
+  .footer__desc {
+    font-size: var(--normal-font-size);
+    width: 30rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}
 
-/*========== SCROLL UP ==========*/
-
-/* Show scroll */
-
-/*========== SCROLL BAR ==========*/
