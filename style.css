@@ -973,6 +973,10 @@ select {
     left: 10%;
     top: 30%;
   }
+  .deals__options{
+   display: flex !important;
+   gap: .5rem !important;
+  }
 }
 /*==================== Testimonial ====================*/
 .testimonial__content {
@@ -1188,6 +1192,23 @@ select {
   }
 }
 @media screen and (max-width: 768px) {
+  /* Make the Newsletter Section Responsible */
+  .offer__card {
+    width: 200px;
+    height: 80px;
+    right: 0.2rem;
+    bottom: 2.8rem;
+  }
+  .offer__card-name {
+    font-size: 14px;
+    color: var(--body-color);
+  }
+  .offer__card-desc {
+    font-size: 18px;
+    color: var(--body-color);
+  }
+}
+@media screen and (max-width: 490px) {
   /* Make the home page Responsible */
   .contact {
     margin-top: 1rem;
@@ -1198,10 +1219,10 @@ select {
     align-items: center;
   }
   .offer__card {
-    width: 200px;
+    width: 150px;
     height: 80px;
     right: 0.2rem;
-    bottom: 2.8rem;
+    bottom: 2rem;
     transform: rotate(-30deg);
   }
 }
@@ -1216,6 +1237,7 @@ select {
   font-size: var(--normal-font-size);
   width: 40rem;
   padding: 1rem;
+  line-height: 24px;
   text-align: center;
 }
 .fa-icon{
@@ -1231,6 +1253,15 @@ select {
   .footer__desc {
     font-size: var(--normal-font-size);
     width: 30rem;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 590px) {
+  /* Make the home page Responsible */
+  .footer__desc {
+    font-size: var(--normal-font-size);
+    width: 20rem;
     padding: 1rem;
     text-align: center;
   }
