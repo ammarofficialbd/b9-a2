@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="css/main.css" />
 
-  <title>Travelar.</title>
+  <title>JetVista.</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
     <div class="header__logo">
       <img src="./Images/Group 40071 (2).png" alt="e-shop" class="logo" />
       <span class="header__title pl-10">
-        Hero <span class="header__subtitle"> Travel </span></span>
+        Jet<span class="header__subtitle"> Vista </span></span>
     </div>
     <nav class="nav__bar flex justify-between">
       <ul class="nav__list flex justify-between items-center">
@@ -51,41 +51,75 @@
   <!--==================== MAIN ====================-->
   <main class="main">
     <!--==================== HOME ====================-->
-    <section class="home section" id="home"></section>
+    <section class="home section" id="home">
+      <div class="home__container">
+        <div class="home__overlay">
+          <img src="Images/bg.png" alt="" class="home__img">
+          <div class="home__content img-overlay">
+            <h1> Explore Your Travel </h1>
+            <p> JetVista. is not just a travel agency, it's a gateway to personalized adventures and unforgettable
+              journeys. </p>
+          </div>
+        </div>
 
+      </div>
+    </section>
+    <!--==================== Search Bar===================-->
+    <section class="location__search section">
+      <div class="search__container">
+        <div class="search__from-wrap">
+          <form class="form" action="#">
+            <input type="text" placeholder="Where go" class="form-control">
+            <select class="form-control">
+              <option value="1 Day">when</option>
+              <option value="1 Week">Summer</option>
+              <option value="15 Day">Winter</option>
+              <option value="1 Month">Spring</option>
+              <option value="2 Month">Autumn</option>
+            </select>
+            <select class="form-control">
+              <option value="1 Day">Select Type</option>
+              <option value="1 Week">weekly</option>
+              <option value="15 Day">Half a month</option>
+              <option value="1 Month">Monthly</option>
+              <option value="2 Month">Daily</option>
+            </select>
+            <button type="button" class="btn btn-jetvista form-control"> Find Now</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
     <!--==================== ABOUT ====================-->
     <section class="about section flex justify-between gap-6" id="about">
       <article class="about__content flex flex-col">
         <h1 class="about__title">Our Popular Tours</h1>
         <p class="about__subtitle">
-          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-          odio sit massa. Sodales dictumst nec nibh pellentesque.
+
+          Embark on a journey of a lifetime with our popular tours, meticulously crafted to provide you with
+          unforgettable experiences and cherished memories.
         </p>
         <ul class="about__list">
           <li class="about__list-item">
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-            nullam odio neque diam. Sociis erat at .
+          Enchanting European Escapade:
+          Discover the timeless charm of Europe with our popular Enchanting European Escapade. 
           </li>
           <li class="about__list-item">
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-            nullam odio neque diam. Sociis erat at .
+            Serene Southeast Asia Adventure:
+Embark on a Serene Southeast Asia Adventure and indulge your senses in the beauty of this tropical paradise. 
           </li>
           <li class="about__list-item">
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-            nullam odio neque diam. Sociis erat at .
+            Majestic Safari Expedition in Africa: Experience the thrill of the wild with our Majestic Safari Expedition in Africa. Encounter the "Big Five" – lions, elephants, buffalos, leopards, and rhinos – in their natural habitats.
           </li>
         </ul>
         <p class="about__subtitle">
-          Amet consectetur. Vulputate commodo felis molestie risus ornare
-          nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-          Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
-          semper tincidunt.
+          Join us on these captivating adventures, where every moment is designed to inspire, delight, and create lasting connections with the world's most enchanting places.
         </p>
         <div class="about__btn">
-          <a class="btn btn-primary"> Read More</a>
+          <a class="btn btn-jetvista"> Read More</a>
         </div>
       </article>
-      <div class="about__img flex justify-end">
+      <div class="about__img ">
         <img src="Images/Rectangle 4.png" alt="" />
       </div>
     </section>
@@ -98,7 +132,7 @@
           Choosing your destination is a personal odyssey, where your heart's desires guide you to the perfect place.
         </p>
       </div>
-      <div class="destination__place mt-10">
+      <div class="destination__place mt-40">
         <div class="destination__img row flex justify-between gap-2">
           <div class="col">
             <div class="place__name"> Maldives </div>
@@ -143,7 +177,7 @@
     <section class="services section" id="services">
       <div class="services__header-content">
         <div class="services__header flex flex-col justify-center items-center">
-          <h2 class="services__title">Why Choose Us</h2>
+          <h2 class="services__title mb-10">Why Choose Us</h2>
           <p class="services__desc">
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
             odio sit massa. Sodales dictumst nec nibh pellentesque.
@@ -178,36 +212,52 @@
     </section>
 
     <!--==================== PORTFOLIO ====================-->
-    <section class="deals section" id="deals"></section>
+    <section class="deals section" id="deals">
+      <div class="deals__container">
+        <div class="deals__overlay">
+          <img src="Images/Group 39.png" alt="" class="deals__img">
+          
+          <div class="deals__content">
+            <div class="flex gap-4 ">
+              <span> 7 Day / 6 Night </span>
+              <span> Max : 10 </span>
+              <span> Maldives</span>
+            </div>
+            <h1> Tour To Maldives </h1>
+            <p> Escape to the Maldives, a tropical haven boasting crystal-clear waters and pristine beaches. Wake up in overwater bungalows, step onto powder-soft sands, and witness mesmerizing sunsets. </p>
+              <span> price : Price: $1300-$1500</span>
+            <button class="btn btn-jetvista"> Book Now </button>
+          </div>
+          </div>
+    </section>
 
     <!--==================== PROJECT IN MIND ====================-->
     <section class="featured section"></section>
 
     <!--==================== TESTIMONIAL ====================-->
-    <section class="testimonial section flex justify-between">
-      <article class="testimonial__content flex flex-col">
-        <h1 class="testimonial__title">Our Popular Tours</h1>
+    <section class="testimonial section flex justify-between gap-4">
+      <article class="testimonial__content flex flex-col basis-50">
+        <h1 class="testimonial__title">A Simple Perfect Place To Get Lost</h1>
         <p class="testimonial__subtitle">
-          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-          odio sit massa. Sodales dictumst nec nibh pellentesque.
+          This journey isn't just about the destination—it's about losing yourself in the beauty of the present moment.
         </p>
         <ul class="testimonial__list">
-          <li class="testimonial__list-item">
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-            nullam odio neque diam. Sociis erat at .
+          <li class="testimonial__list-item text-bold">
+            Tranquil Coastal Retreats:
+            Find solace in the soothing embrace of our tranquil coastal retreats.
           </li>
-          <li class="testimonial__list-item">
-            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-            nullam odio neque diam. Sociis erat at .
+          <li class="testimonial__list-item text-bold">
+            Secluded Mountain Hideaways:
+Lose yourself in the majestic beauty of nature with our secluded mountain hideaways. 
           </li>
         </ul>
 
         <div class="testimonial__btn">
-          <a class="btn btn-primary"> Read More</a>
+          <a class="btn btn-jetvista"> Read More</a>
         </div>
       </article>
-      <div class="testimonial__video">
-        <video src="Images/">
+      <div class="testimonial__video basis-50">
+        <video src="videos/video1.mp4" controls>
       </div>
     </section>
 
@@ -221,7 +271,7 @@
         <form action="#" method="post" class="content">
           <input type="name" name="name" class="input" placeholder="Your Email Name" /><br />
           <input type="email" name="email" class="input" placeholder="Your Email Address" /><br />
-          <button type="submit" class="subscribe">Subscribe</button>
+          <button type="submit" class="subscribe btn-jetvista">Subscribe</button>
         </form>
       </div>
       <div class="news__img">
