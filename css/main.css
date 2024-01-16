@@ -717,6 +717,12 @@ body {
 .mb-20 {
   margin-bottom: 20px;
 }
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
 
 /* Shorthand margin-right classes */
 .mr-1 {
@@ -7411,7 +7417,7 @@ body {
 /*  button css */
 .btn {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 11px 16px;
   border: 1px solid transparent;
   border-radius: 5px;
   font-family: var(--font-family);

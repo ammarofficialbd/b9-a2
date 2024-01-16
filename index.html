@@ -43,7 +43,7 @@
       </ul>
     </nav>
 
-    <div class="icon__bar">
+    <div class="icon__bar cursor-pointer">
       <i class="fa-solid fa-bars"></i>
     </div>
   </header>
@@ -84,7 +84,7 @@
               <option value="1 Month">Monthly</option>
               <option value="2 Month">Daily</option>
             </select>
-            <button type="button" class="btn btn-jetvista form-control"> Find Now</button>
+            <button type="button" class="btn btn-jetvista form-control"> <i class="fa-solid fa-magnifying-glass pr-6"></i> Find Now</button>
           </form>
 
         </div>
@@ -109,7 +109,7 @@
 Embark on a Serene Southeast Asia Adventure and indulge your senses in the beauty of this tropical paradise. 
           </li>
           <li class="about__list-item">
-            Majestic Safari Expedition in Africa: Experience the thrill of the wild with our Majestic Safari Expedition in Africa. Encounter the "Big Five" – lions, elephants, buffalos, leopards, and rhinos – in their natural habitats.
+            Majestic Safari Expedition in Africa: Experience the thrill of the wild with our Majestic Safari Expedition in Africa.
           </li>
         </ul>
         <p class="about__subtitle">
@@ -133,12 +133,12 @@ Embark on a Serene Southeast Asia Adventure and indulge your senses in the beaut
         </p>
       </div>
       <div class="destination__place mt-40">
-        <div class="destination__img row flex justify-between gap-2">
-          <div class="col">
+        <div class="destination__img row flex justify-between gap-2 place__one">
+          <div class="col place__imgs">
             <div class="place__name"> Maldives </div>
-            <img src="Images/Rectangle 5.png" alt="">
+            <img src="Images/Rectangle 5.png" alt="" >
           </div>
-          <div class="col">
+          <div class="col place__imgs">
             <div class="place__name"> Indonesia </div>
             <img src="Images/Rectangle 8.png" alt="">
           </div>
@@ -179,54 +179,61 @@ Embark on a Serene Southeast Asia Adventure and indulge your senses in the beaut
         <div class="services__header flex flex-col justify-center items-center">
           <h2 class="services__title mb-10">Why Choose Us</h2>
           <p class="services__desc">
-            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-            odio sit massa. Sodales dictumst nec nibh pellentesque.
+            Choosing us means opting for more than just a travel provider; it means selecting a partner dedicated to curating extraordinary experiences.
           </p>
         </div>
       </div>
 
       <div class="services__content">
         <div class="service service__one">
-          <img src="Images/hotel 1.png" class="mb-10" alt="hotel">
+          <img src="Images/hotel 1.png" class="mb-40 service__img" alt="hotel">
           <h3 class="service__name mb-10">Handpicked Hotels</h3>
-          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
-            Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
+          <span class="service__desc">Discover the epitome of luxury and comfort with our handpicked hotels. Carefully selected for their unique charm, exquisite amenities, and exceptional service, each property promises an unforgettable stay, </span>
         </div>
         <div class="service service__two">
-          <img src="Images/map 1.png" class="mb-10">
-          <h3 class="service__name mb-10">World Class Service</h3>
-          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
-            Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
+          <img src="Images/map 1.png" class="mb-30 service__img">
+          <h3 class="service__name mb-10 ">World Class Service</h3>
+          <span class="service__desc">Experience world-class service that exceeds expectations at every turn. Our commitment to excellence ensures that every moment of your journey is marked by unparalleled quality and attention to detail. </span>
 
         </div>
 
       </div>
       <div class="services__content-two">
         <div class="service service__three">
-          <img src="Images/price-tag 1.png" class="mb-10">
+          <img src="Images/price-tag 1.png" class="mb-40 service__img">
           <h3 class="service__name mb-10">Best Price Guarantee</h3>
-          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
-            Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
+          <span class="service__desc">Enjoy peace of mind with our Best Price Guarantee. We are committed to offering you the most competitive rates, ensuring that you get the best value for your travel investment.  </span>
         </div>
       </div>
     </section>
 
-    <!--==================== PORTFOLIO ====================-->
+    <!--==================== Deals section ====================-->
     <section class="deals section" id="deals">
+      <div class="services__header-content mb-40">
+        <div class="services__header flex flex-col justify-center items-center">
+          <h2 class="services__title mb-10">Deal & Discounts</h2>
+          <p class="services__desc">
+            Discover a world of savings and exhilarating experiences with our exclusive deals and discounts.
+          </p>
+        </div>
+      </div>
       <div class="deals__container">
         <div class="deals__overlay">
           <img src="Images/Group 39.png" alt="" class="deals__img">
           
           <div class="deals__content">
-            <div class="flex gap-4 ">
-              <span> 7 Day / 6 Night </span>
-              <span> Max : 10 </span>
-              <span> Maldives</span>
+            <div class="flex gap-4 mb-20 deals__options">
+              <span> <i class="fa-solid fa-clock"> </i> 7 Day / 6 Night </span>
+              <span><i class="fa-solid fa-people-group"></i> Max : 10 </span>
+              <span><i class="fa-solid fa-location-dot"></i> Maldives</span>
             </div>
-            <h1> Tour To Maldives </h1>
-            <p> Escape to the Maldives, a tropical haven boasting crystal-clear waters and pristine beaches. Wake up in overwater bungalows, step onto powder-soft sands, and witness mesmerizing sunsets. </p>
-              <span> price : Price: $1300-$1500</span>
-            <button class="btn btn-jetvista"> Book Now </button>
+            <div class="flex flex-col justify-start deals__content-text">  
+              <h1> Tour To Maldives </h1>
+              <p> Escape to the Maldives, a tropical haven boasting crystal-clear waters and pristine beaches. Wake up in overwater bungalows, step onto powder-soft sands, and witness mesmerizing sunsets. </p>
+                <span class="mb-10"> Price: $1300-$1500</span>
+              
+            </div>
+            <button class="btn btn-jetvista mt-10"> Book Now </button>
           </div>
           </div>
     </section>
@@ -311,13 +318,6 @@ Lose yourself in the majestic beauty of nature with our secluded mountain hideaw
     <p class="text-grey-600 text-center mt-20">2020, All rights reserved</p>
   </footer>
 
-  <!--==================== SCROLL TOP ====================-->
-
-  <!--==================== SWIPER JS ====================-->
-  <script src=""></script>
-
-  <!--==================== MAIN JS ====================-->
-  <script src=""></script>
 </body>
 
 </html>
