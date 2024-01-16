@@ -1,122 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--==================== Awesome icon ====================-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="./style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/main.css" />
+  <!--==================== Awesome icon ====================-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="./style.css" />
 
-    <title>Travelar.</title>
-  </head>
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header flex justify-between px-20" id="header">
-      <div class="header__logo">
-        <img src="./Images/Group 40071 (2).png" alt="e-shop" class="logo" />
-        <span class="header__title pl-10">
-          Hero <span class="header__subtitle"> Travel </span></span
-        >
-      </div>
-      <nav class="nav__bar flex justify-between">
-        <ul class="nav__list flex justify-between items-center">
-          <li class="nav__list-name"><a href="" class="nav__link">Home</a></li>
-          <li class="nav__list-name">
-            <a href="" class="nav__link">Packages</a>
+  <link rel="stylesheet" href="css/main.css" />
+
+  <title>Travelar.</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header flex justify-between px-20" id="header">
+    <div class="header__logo">
+      <img src="./Images/Group 40071 (2).png" alt="e-shop" class="logo" />
+      <span class="header__title pl-10">
+        Hero <span class="header__subtitle"> Travel </span></span>
+    </div>
+    <nav class="nav__bar flex justify-between">
+      <ul class="nav__list flex justify-between items-center">
+        <li class="nav__list-name"><a href="" class="nav__link">Home</a></li>
+        <li class="nav__list-name">
+          <a href="" class="nav__link">Packages</a>
+        </li>
+        <li class="nav__list-name">
+          <a href="" class="nav__link">Testimonial</a>
+        </li>
+        <li class="nav__list-name">
+          <a href="" class="nav__link">Blog</a>
+        </li>
+        <li class="nav__list-name">
+          <a href="" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="icon__bar">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home"></section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section flex justify-between gap-6" id="about">
+      <article class="about__content flex flex-col">
+        <h1 class="about__title">Our Popular Tours</h1>
+        <p class="about__subtitle">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.
+        </p>
+        <ul class="about__list">
+          <li class="about__list-item">
+            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+            nullam odio neque diam. Sociis erat at .
           </li>
-          <li class="nav__list-name">
-            <a href="" class="nav__link">Testimonial</a>
+          <li class="about__list-item">
+            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+            nullam odio neque diam. Sociis erat at .
           </li>
-          <li class="nav__list-name">
-            <a href="" class="nav__link">Blog</a>
-          </li>
-          <li class="nav__list-name">
-            <a href="" class="nav__link">Contact</a>
+          <li class="about__list-item">
+            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+            nullam odio neque diam. Sociis erat at .
           </li>
         </ul>
-      </nav>
-
-      <div class="icon__bar">
-        <i class="fa-solid fa-bars"></i>
+        <p class="about__subtitle">
+          Amet consectetur. Vulputate commodo felis molestie risus ornare
+          nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+          Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
+          semper tincidunt.
+        </p>
+        <div class="about__btn">
+          <a class="btn btn-primary"> Read More</a>
+        </div>
+      </article>
+      <div class="about__img flex justify-end">
+        <img src="Images/Rectangle 4.png" alt="" />
       </div>
-    </header>
+    </section>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home"></section>
-
-      <!--==================== ABOUT ====================-->
-      <section class="about section flex justify-between gap-6" id="about">
-        <article class="about__content flex flex-col">
-          <h1 class="about__title">Our Popular Tours</h1>
-          <p class="about__subtitle">
-            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-            odio sit massa. Sodales dictumst nec nibh pellentesque.
-          </p>
-          <ul class="about__list">
-            <li class="about__list-item">
-              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-              nullam odio neque diam. Sociis erat at .
-            </li>
-            <li class="about__list-item">
-              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-              nullam odio neque diam. Sociis erat at .
-            </li>
-            <li class="about__list-item">
-              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-              nullam odio neque diam. Sociis erat at .
-            </li>
-          </ul>
-          <p class="about__subtitle">
-            Amet consectetur. Vulputate commodo felis molestie risus ornare
-            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
-            Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
-            semper tincidunt.
-          </p>
-          <div class="about__btn">
-            <a class="btn btn-primary"> Read More</a>
+    <!--==================== Destination ====================-->
+    <section class="destination section" id="skills">
+      <div class="destination__header flex flex-col justify-center items-center">
+        <h2 class="destination__title mb-10">Choose Your Destination</h2>
+        <p class="destination__desc w-40 text-center text-lg">
+          Choosing your destination is a personal odyssey, where your heart's desires guide you to the perfect place.
+        </p>
+      </div>
+      <div class="destination__place mt-10">
+        <div class="destination__img row flex justify-between gap-2">
+          <div class="col">
+            <div class="place__name"> Maldives </div>
+            <img src="Images/Rectangle 5.png" alt="">
           </div>
-        </article>
-        <div class="about__img flex justify-end">
-          <img src="Images/Rectangle 4.png" alt="" />
+          <div class="col">
+            <div class="place__name"> Indonesia </div>
+            <img src="Images/Rectangle 8.png" alt="">
+          </div>
         </div>
-      </section>
 
-      <!--==================== Destination ====================-->
-      <section class="destination section" id="skills">
-        <div class="destination__header flex flex-col justify-center items-center">
-          <h2 class="destination__title">Choose Your Destination</h2>
-          <p class="destination__desc">
-            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-            odio sit massa. Sodales dictumst nec nibh pellentesque.
-          </p>
+        <div class="destination__img place__two row flex justify-between gap-2">
+          <div class="col place__imgs basis-30">
+            <div class="place__name"> Srilanka </div>
+            <img src="Images/Rectangle 6.png" alt="">
+          </div>
+          <div class="col place__imgs basis-50">
+            <div class="place__name north"> North America </div>
+            <img src="Images/Rectangle 7.png" alt="">
+          </div>
+          <div class="col place__imgs basis-20">
+            <div class="place__name"> Kashmir </div>
+            <img src="Images/Rectangle 9.png" alt="">
+          </div>
         </div>
-        <div class="destination__place">
-          <div class="destination__img"></div>
-          <div class="destination__img"></div>
-          <div class="destination__img"></div>
-          <div class="destination__img"></div>
-          <div class="destination__img"></div>
-          <div class="destination__img"></div>
-          <div class="destination__img"></div>
-        </div>
-      </section>
 
-      <!--==================== SERVICES ====================-->
-      <section class="services section" id="services">
-        <div class="services__header-content">  
-          <div class="services__header flex flex-col justify-center items-center">
+        <div class="destination__img place__three row flex  justify-between gap-2">
+          <div class="col place__imgs basis-40">
+            <div class="place__name"> Bangladesh </div>
+            <img src="Images/Rectangle 11.png" alt="">
+          </div>
+          <div class="col place__imgs basis-60">
+            <div class="place__name"> Bandarban </div>
+            <img src="Images/Rectangle 10.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+      <div class="services__header-content">
+        <div class="services__header flex flex-col justify-center items-center">
           <h2 class="services__title">Why Choose Us</h2>
           <p class="services__desc">
             Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
@@ -124,124 +150,124 @@
           </p>
         </div>
       </div>
-       
-        <div class="services__content"> 
-             <div class="service service__one"> 
-                 <img src="Images/hotel 1.png">
-                 <h3 class="service__name">Handpicked Hotels</h3>
-                 <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
-             </div>
-             <div class="service service__two"> 
-              <img src="Images/map 1.png">
-              <h3 class="service__name">World Class Service</h3>
-              <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
 
-          </div>
-          
+      <div class="services__content">
+        <div class="service service__one">
+          <img src="Images/hotel 1.png" class="mb-10" alt="hotel">
+          <h3 class="service__name mb-10">Handpicked Hotels</h3>
+          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+            Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
         </div>
-        <div class="services__content-two">    
-          <div class="service service__three"> 
-          <img src="Images/price-tag 1.png">
-          <h3 class="service__name">Best Price Guarantee</h3>
-          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
-      </div> 
-    </div>
-      </section>
+        <div class="service service__two">
+          <img src="Images/map 1.png" class="mb-10">
+          <h3 class="service__name mb-10">World Class Service</h3>
+          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+            Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
 
-      <!--==================== PORTFOLIO ====================-->
-      <section class="deals section" id="deals"></section>
-
-      <!--==================== PROJECT IN MIND ====================-->
-      <section class="featured section"></section>
-
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section flex justify-between">
-        <article class="testimonial__content flex flex-col">
-          <h1 class="testimonial__title">Our Popular Tours</h1>
-          <p class="testimonial__subtitle">
-            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-            odio sit massa. Sodales dictumst nec nibh pellentesque.
-          </p>
-          <ul class="testimonial__list">
-            <li class="testimonial__list-item">
-              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-              nullam odio neque diam. Sociis erat at .
-            </li>
-            <li class="testimonial__list-item">
-              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
-              nullam odio neque diam. Sociis erat at .
-            </li>
-          </ul>
-        
-          <div class="testimonial__btn">
-            <a class="btn btn-primary"> Read More</a>
-          </div>
-        </article>
-        <div class="testimonial__video">
-          <video src="Images/" >
         </div>
-      </section>
 
-      <!--==================== CONTACT ME ====================-->
-      <section class="contact section flex justify-between gap-6" id="contact">
-         <div class="newsletter__content"> 
-              <h2 class="newsletter__title">Newsletter</h2>
-              <p class="newsletter__subtitle"> Subscribe now to Travelar's newsletter and let the wonders of the world come to your inbox every month.</p>
-              
-              <form action="#" method="post" class="content">
-                <input type="name" name="name" class="input" placeholder="Your Email Name"/><br/>
-                <input type="email" name="email" class="input" placeholder="Your Email Address"/><br/>
-                <button type="submit" class="subscribe">Subscribe</button>
-              </form>
-         </div>
-         <div class="news__img"> 
-              <img src="Images/Rectangle 8 (1).png" alt="">
-              <div class="offer__card"> 
-                <span class="offer__card-name"> Travel.com </span>
-                <h3 class="offer__card-desc"> Save up to 70% </h3>
-              </div>
-         </div>
-      </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-      <div class="footer__content flex justify-center items-center flex-col">
-        <div class="name-copy flex justify-center items-center flex-col">
-          <div class="header__logo">
-            <img
-              src="./Images/Group 40071 (2).png"
-              alt="Travel"
-              class="footer__logo"
-            />
-            <span class="header__title pl-10">
-              Hero <span class="header__subtitle"> Travel </span></span
-            >
-          </div>
-          <p class="footer__desc">
-            Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi
-            vitae blandit orci potenti vulputate. Leo erat maecenas vitae
-            elementum ultricies nullam.
-          </p>
-        </div>
-        <nav class="flex justify-center items-center gap-2 mt-10">
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-solid fab fa-facebook"></i>
-          <i class="fa-brands fa-x-twitter"></i>
-          <i class="fa-brands fab fa-github"></i>
-        </nav>
       </div>
-      <hr class="color-slate-50 mt-20" />
+      <div class="services__content-two">
+        <div class="service service__three">
+          <img src="Images/price-tag 1.png" class="mb-10">
+          <h3 class="service__name mb-10">Best Price Guarantee</h3>
+          <span class="service__desc">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
+            Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </span>
+        </div>
+      </div>
+    </section>
 
-      <p class="text-grey-600 text-center mt-20">2020, All rights reserved</p>
-    </footer>
+    <!--==================== PORTFOLIO ====================-->
+    <section class="deals section" id="deals"></section>
 
-    <!--==================== SCROLL TOP ====================-->
+    <!--==================== PROJECT IN MIND ====================-->
+    <section class="featured section"></section>
 
-    <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <!--==================== TESTIMONIAL ====================-->
+    <section class="testimonial section flex justify-between">
+      <article class="testimonial__content flex flex-col">
+        <h1 class="testimonial__title">Our Popular Tours</h1>
+        <p class="testimonial__subtitle">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.
+        </p>
+        <ul class="testimonial__list">
+          <li class="testimonial__list-item">
+            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+            nullam odio neque diam. Sociis erat at .
+          </li>
+          <li class="testimonial__list-item">
+            Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+            nullam odio neque diam. Sociis erat at .
+          </li>
+        </ul>
 
-    <!--==================== MAIN JS ====================-->
-    <script src=""></script>
-  </body>
+        <div class="testimonial__btn">
+          <a class="btn btn-primary"> Read More</a>
+        </div>
+      </article>
+      <div class="testimonial__video">
+        <video src="Images/">
+      </div>
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section flex justify-between gap-6" id="contact">
+      <div class="newsletter__content">
+        <h2 class="newsletter__title">Newsletter</h2>
+        <p class="newsletter__subtitle"> Subscribe now to Travelar's newsletter and let the wonders of the world come to
+          your inbox every month.</p>
+
+        <form action="#" method="post" class="content">
+          <input type="name" name="name" class="input" placeholder="Your Email Name" /><br />
+          <input type="email" name="email" class="input" placeholder="Your Email Address" /><br />
+          <button type="submit" class="subscribe">Subscribe</button>
+        </form>
+      </div>
+      <div class="news__img">
+        <img src="Images/Rectangle 8 (1).png" alt="">
+        <div class="offer__card">
+          <span class="offer__card-name"> Travel.com </span>
+          <h3 class="offer__card-desc"> Save up to 70% </h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__content flex justify-center items-center flex-col">
+      <div class="name-copy flex justify-center items-center flex-col">
+        <div class="header__logo">
+          <img src="./Images/Group 40071 (2).png" alt="Travel" class="footer__logo" />
+          <span class="header__title pl-10">
+            Hero <span class="header__subtitle"> Travel </span></span>
+        </div>
+        <p class="footer__desc">
+          Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi
+          vitae blandit orci potenti vulputate. Leo erat maecenas vitae
+          elementum ultricies nullam.
+        </p>
+      </div>
+      <nav class="flex justify-center items-center gap-2 mt-10">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-solid fab fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fab fa-github"></i>
+      </nav>
+    </div>
+    <hr class="color-slate-50 mt-20" />
+
+    <p class="text-grey-600 text-center mt-20">2020, All rights reserved</p>
+  </footer>
+
+  <!--==================== SCROLL TOP ====================-->
+
+  <!--==================== SWIPER JS ====================-->
+  <script src=""></script>
+
+  <!--==================== MAIN JS ====================-->
+  <script src=""></script>
+</body>
+
 </html>

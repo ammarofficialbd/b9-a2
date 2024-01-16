@@ -329,7 +329,78 @@ header {
   }
 }
 
-/*==================== PORTFOLIO ====================*/
+/*==================== Destination ====================*/
+.destination__img {
+margin-top: 1.2rem;
+}
+.destination__img > .col{
+  position: relative;
+  cursor: pointer;
+}
+.destination__img > .col:hover img{
+ opacity: 0.8;
+}
+.destination__img > .col > .place__name{
+position: absolute;
+z-index: 99;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 800;
+color: var(--body-color);
+display: flex;
+justify-content: center;
+align-items: center;
+top: 45%;
+left: 35%;
+}
+
+.col img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.place__two > .place__imgs{
+  height: 300px;
+}
+.place__two > .place__imgs img{
+  height: 300px;
+  object-fit: fill;
+  border-radius: 1rem;
+}
+
+.place__three > .place__imgs{
+  height: 300px;
+}
+.place__three > .place__imgs img{
+  height: 300px;
+  object-fit: fill;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .place__imgs{
+    flex-basis: 50%!important;
+  }
+  .place__imgs > .north{
+    top: 45%;
+    left: 20% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Make the home page Responsible */
+  .destination__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center!important;
+    border-radius: 1rem;
+    }
+    .destination__img > .col > .place__name{
+      top: 45%;
+      left: 40%!important;
+    }
+   
+}
 
 /*==================== Services ====================*/
 
